@@ -35,3 +35,6 @@ Thumbs.db
 # models
 *.pbtxt
 *.h5
+
+clearml_serving/client_REST
+run_triton.sh

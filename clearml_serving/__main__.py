@@ -86,11 +86,11 @@ def cmd_launch(args):
     # launch services queue
     a_serving.launch(queue_name=args.service_queue)
     # launch engine
-    a_serving.launch_engine(
-        queue_name=args.queue,
-        container=args.engine_container or None,
-        container_args=args.engine_container_args or None,
-    )
+    #a_serving.launch_engine(
+    #    queue_name=args.queue,
+    #    container=args.engine_container or None,
+    #    container_args=args.engine_container_args or None,
+    #)
 
 
 def cli(verbosity):
